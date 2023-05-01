@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    width: 100%;
+    position: fixed!important;
+    z-index: 1008;
+    transition: all .3s ease-in-out,padding-right 0s;
+    background: transparent;   
+}
+.navbar-brand img {
+    height: 30px;
+    width: 100%;
+}
+.navbar-toggler {
+    color: #fff;
+}
+.navbar-nav {
+    margin-left: 60px;
+}
+.navbar-nav li {
+    padding-left: 25px;
+}
+ul li a {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.nav-item a {
+    color: white;
+}
+.nav-item a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+.navbar-icons li a {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.navbar-icons li a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+.carousel-item {
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.carousel-item .row {
+    display: flex;
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+.carousel-item h1 {
+    text-transform: uppercase;
+    font-size: .98rem;
+    letter-spacing: .05rem;
+    animation: zoomIn 0.5s ease-in-out;
+    animation-fill-mode: both;
+}
+.carousel-item p {
+    line-height: 1.3;
+    font-size: calc(1.425rem + 2.3vw);
+    font-weight: 600;
+
+    animation: zoomIn 1s ease-in-out;
+    animation-fill-mode: both;
+}
+.flower-icon {
+    width: 90px;
+    margin-top: 60px;
+    mix-blend-mode: multiply;
+}
+h2 {
+    font-size: calc(1.295rem + 1.44vw);
+    line-height: 1.25;
+    font-weight: 600;
+    margin-bottom: 2.5rem!important;
+    letter-spacing: normal;
+    color: #343f52; 
+}
+.card {
+    border: none;
+    box-shadow: 0 .25rem 1.75rem rgba(30,34,40,.07)!important;
+    padding: x;
+}
+
+.overlay {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    transition: all .4s ease;
+}
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.overlay-1 .from-top {
+    position: absolute;
+    padding: 0.75rem 1rem;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-80%);    
+    color: #fff!important;
+}
+.overlay-1 figcaption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0.75rem 1rem;
+    opacity: 0;
+    text-align: center;
+    z-index: 5;
+    pointer-events: none;
+
+}
+h3 {
+    font-size: 1.55rem!important;
+    letter-spacing: normal;
+    font-weight: 600;
+    line-height: 1.4;
+
+}
+.about {
+    height: 500px;
+    background-image: url(images/bg5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes zoomIn {
+0% {
+    opacity: 0;
+    transform: scale(.8);
+}
+100% {
+    opacity: 1;
+    transform: scale(1);
+}
+}
